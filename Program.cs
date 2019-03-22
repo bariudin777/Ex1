@@ -1,8 +1,8 @@
-﻿using System;
+﻿//user name: bariuddd
+//Id: 307758334
+
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Excercise_1
 {
