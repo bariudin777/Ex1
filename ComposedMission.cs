@@ -32,7 +32,7 @@ namespace Excercise_1
             return value;
         }
         
-        public ComposedMission Add(Func<double, double> func) //TODO: not working properly.
+        public ComposedMission Add(Func<double, double> func)
         {
             actions.Add(func);
             return this;
