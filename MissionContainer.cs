@@ -22,6 +22,7 @@ namespace Excercise_1
                 if (this.ContainsKey(key))
                     return base[key];
                 else
+                    base[key] = x => x;
                     return x => x;
             }
             set { base[key] = value; }

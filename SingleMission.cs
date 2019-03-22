@@ -24,7 +24,9 @@ namespace Excercise_1
 
         public double Calculate(double value)
         {
-            return func(value);
+            double res = func(value);
+            OnCalculate?.Invoke(this, res);
+            return res;
         }
     }
 }

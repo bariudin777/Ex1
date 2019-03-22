@@ -28,9 +28,10 @@ namespace Excercise_1
             foreach (var action in actions) {
                 value = action(value);
             }
+            OnCalculate.Invoke(this, value);
             return value;
         }
-
+        
         public ComposedMission Add(Func<double, double> func) //TODO: not working properly.
         {
             actions.Add(func);
